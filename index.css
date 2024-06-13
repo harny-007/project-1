@@ -1,0 +1,88 @@
+* {
+    /* background-color: orange; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+    background-image: url(photo/a3.webp);
+    /* background-repeat: repeat-x; */
+    backdrop-filter: blur(10px);
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 150%;
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.low {
+    text-align: center;
+    border: 5px solid red;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    color: aliceblue;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#a1 {
+    text-align: center;
+    margin-bottom: 3%;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#a2 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 100px;
+}
+
+form {
+    border: 8px solid rgb(83, 46, 3);
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    color: aliceblue;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+p {
+    color: aliceblue;
+}
+
+#result1 {
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+}
+
+#ฟ {
+    width: 500px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+input[type=text] {
+    background: #cecece;
+    border: 0px;
+    border-bottom: 3px solid rgb(173, 255, 173);
+    border-radius: 16px;
+}

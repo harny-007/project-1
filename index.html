@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> harnyfozzy </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="photo/a.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="photo/a.jpg" alt="" style="width:40px;">
+        </a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">หน้า 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">หน้า 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">หน้า 3</a>
+          </li>
+        </ul>
+      </nav>
+    <h1>harnyfozzy.TB</h1>
+    <p id="a1">arm</p>
+    <!-- เครื่องคิดเลข -->
+    <form action="" method="post">
+        <h2>กรุณากรองเลขที่ต้องการ ?</h2>
+        ข้อมูลเลขที่1 <br>
+        <input type="text" name="" id="num1"><br>
+        ข้อมูลเลขที่2 <br>
+        <input type="text" name="" id="num2"><br>
+        <br>
+        <b id="a2"><input type="button" value=" + " onclick="cal()"></b>&nbsp;
+        <b id="a2"><input type="button" value="  -  " onclick="cal1()"></b>&nbsp;
+        <b id="a2"><input type="button" value=" * " onclick="cal2()"></b>&nbsp;
+        <b id="a2"><input type="button" value=" ÷ " onclick="cal3()"></b>&nbsp;
+        <b id="a2"><input type="button" value=" % " onclick="cal4()"></b>&nbsp;
+        <b id="a2"><input type="button" value=" ^ " onclick="cal5()"></b>&nbsp;
+        <b id="a2"><input type="reset" value=" reset "></b>&nbsp;
+        <br><br>
+        <p id="result"> คำตอบ? </p>
+    </form>
+    <!-- สกุลเงินยูโร -->
+    <form action="" method="post">
+      <h2> แปลงสกุลเงินยูโรเป็นบาท </h2>
+      จำนวนเงิน 
+      <input type="text" name="" id="bat">
+      แปลงเป็น 
+      <b id="result1"> คำตอบ? </b>
+      
+      
+      <br><br>
+      <b id="a2"><input type="button" value=" แปลงเงิน " onclick="eur()"></b>&nbsp;
+      <br>
+      <input type="text" name="" id="ฟ" placeholder="ข้อมูล ณ วันที่ 1 2 / 6 / 2024 10.51 am" readonly><br>
+  </form>
+  <script src="main.js"></script>
+  <footer></footer>
+</body>
+<div class="con">
+    <div class="low">
+        <script src="index.js"></script>
+    </div>
+    
+</div>
+</html>
